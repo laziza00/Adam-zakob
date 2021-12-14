@@ -30,21 +30,19 @@ body {
 }
 .header-list-link{
     text-decoration: none;
-
-}
-
-.nav-library.active{
-    opacity: 1;
-}
-.nav-library{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 26px;
     text-decoration: none;
     color: #25202F;
     opacity: 0.3;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+
 }
+
+.header-list-link.active{
+    opacity: 1;
+}
+
 .header-div-logo{
     
 }
@@ -152,7 +150,7 @@ body {
 }
 .services-box-item{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     margin-bottom: 21px;
 
@@ -177,8 +175,8 @@ body {
     width: 350px;
     margin-bottom: 150px;
 }
-.service-list-img{
-    margin-left: 20px;
+.services-list-img{
+    margin-right: 20px;
     
 }
 .portfolio-top{
